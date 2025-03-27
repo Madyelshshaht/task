@@ -1108,7 +1108,7 @@ select {
 }
 
 .banner {
-    background: url(/img/Rectangle\ 9469.png), url('img/bags.png');
+    background: url(img/Rectangle\ 9469.png), url('img/bags.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
