@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Rakayb</title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="/img/logo.png" alt="logo_Rakab">
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#" class="active">الرئيسية</a></li>
+            <li><a href="#">عن التطبيق</a></li>
+            <li><a href="#">مميزات التطبيق</a></li>
+            <li><a href="#">شاشات التطبيق</a></li>
+            <li><a href="#">عملائنا</a></li>
+            <li><a href="#">تحميل التطبيق</a></li>
+            <li><a href="#">تواصل معنا</a></li>
+        </ul>
+
+        <div class="dropdown">
+            <label for="lang" class="global">
+                <img src="img/global.png" alt="global">
+                <!-- <span>اللغة</span> -->
+            </label>
+            <select id="lang">
+                <option value=""> اللغة</option>
+                <option value="en">EN</option>
+                <option value="ar">AR</option>
+            </select>
+        </div>
+
+
+
+
+
+
+        <div class="humburger" onclick="toggleMenu()">
+            <svg class="icon open" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="4" x2="20" y1="12" y2="12" />
+                <line x1="4" x2="20" y1="6" y2="6" />
+                <line x1="4" x2="20" y1="18" y2="18" />
+            </svg>
+            <svg class="icon close" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 6 6 18" />
+                <path d="m6 6 12 12" />
+            </svg>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div class="star1"></div>
+        <div class="star2"></div>
+        <div class="star3"></div>
+
+
+
+        <svg class="plane-icon" width="40" height="40" viewBox="0 0 24 24" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <img src="/img/plane.svg" class="plane-icon" alt="">
+        </svg>
+
+
+        <div class="content">
+            <h1> تطبيق ركائب </h1>
+            <p>قم بتحميل التطبيق و استمتع بالخدمات المختلفة و سهولة الإستخدام و تنفيذ خدمتك و توصيل أمتعتك إلي
+                واجهتك
+                المطلوبة بكل أمان</p>
+
+            <div class="buttons">
+                <a href="#"><img src="/img/google.png" alt=""></a>
+                <a href="#"><img src="img/apple.png" alt=""></a>
+            </div>
+
+            <div class="rect">
+                <div class="rectb"></div>
+                <div class="recty"></div>
+            </div>
+
+        </div>
+
+        <div class="phones">
+            <div class="phonesdiv">
+                <div class="phone1">
+                    <img src="img/phone 1.png" alt="">
+                </div>
+                <div class="phone2">
+                    <img src="img/phone2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="app">
+
+        <svg class="plane-icon" width="40" height="40" viewBox="0 0 24 24" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <img src="/img/plane2.png" class="plane-icon" alt="">
+        </svg>
+
+        <div class="head">
+            <h2>عن التطبيق</h2>
+            <h5>تعرف أكثر على تطبيق ركائب</h5>
+        </div>
+        <div class="main">
+            <div class="appPhone">
+                <div class="star1"></div>
+                <div class="bg"></div>
+                <img src="img/phone2.png" alt="">
+            </div>
+            <div class="contnet">
+                <p>في نفس المساحة في مكان واحد،هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة هذا النص هو مثال لنص
+                    يمكن أن يستبدل ،هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة هذا النص هو مثال لنص يمكن أن
+                    يستبدل في نفس المساحة في مكان واحد،</p>
+                <p>في نفس المساحة في مكان واحد،هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة هذا النص هو مثال لنص
+                    يمكن أن يستبدل</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="features">
+        <div class="head">
+            <h2>مميزات التطبيق</h2>
+            <h5>يحتوي تطبيق ركائب على عدة مزايا</h5>
+        </div>
+        <div class="cards">
+            <div class="feature-card">
+                <img class="smalllineplane" src="img/plane small line.png" alt="">
+                <div class="img">
+                    <img src="img/icon1.png" alt="Icon">
+                </div>
+                <h3>سهولة الإستخدام</h3>
+                <p>في نفس المساحة في مكان واحد. هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة</p>
+            </div>
+            <div class="feature-card">
+                <div class="img">
+                    <img src="img/icon2.png" alt="Icon">
+                </div>
+                <h3>سرعة الإستجابة</h3>
+                <p>في نفس المساحة في مكان واحد. هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة</p>
+            </div>
+            <div class="feature-card">
+                <div class="img">
+                    <img src="img/icon3.png" alt="Icon">
+                </div>
+                <h3>خدمات متنوعة</h3>
+                <p>في نفس المساحة في مكان واحد. هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="screenSection">
+        <div class="star1"></div>
+        <div class="star2"></div>
+
+
+        <div class="screens">
+            <img src="img/screen1.png" alt="Screen 1">
+            <img src="img/screen2.png" alt="Screen 2">
+            <img src="img/screen3.png" alt="Screen 3" class="lscreen">
+            <img src="img/screen4.png" alt="Screen 4">
+            <img src="img/screen5.png" alt="Screen 5">
+        </div>
+        <div class="dots">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot fill"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    </div>
+
+    <div class="reviwers">
+        <div class="head">
+            <h2>آراء العملاء</h2>
+            <h5>تعرف على لآراء عملاء ركائب</h5>
+        </div>
+
+        <div class="main">
+
+            <div class="rect">
+                <div class="rectblue"></div>
+                <div class="rectyellow"></div>
+            </div>
+
+            <div class="comment">
+                <div class="icon">
+                    <img src="img/icon-comment.png" alt="icon">
+                </div>
+                <p>في نفس المساحة في مكان واحد،هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة هذا النص هو مثال لنص
+                    يمكن
+                    أن يستبدل ،هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة هذا النص هو مثال لنص يمكن أن يستبدل في
+                    نفس
+                    المساحة في مكان واحد،
+                </p>
+                <div class="name">م.أحمد إبراهيم</div>
+                <div class="buttons">
+                    <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+                    <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+                </div>
+            </div>
+
+            <div class="client">
+                <img src="img/star1.svg" alt="" class="star1">
+                <img src="img/star2small.svg" alt="" class="star22">
+
+                <div class="box-bg">
+                    <img src="img/client.jpeg" alt="">
+                </div>
+                <div class="box"></div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="downlaodApp">
+        <svg class="plane-icon" width="40" height="40" viewBox="0 0 24 24" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <img src="/img/plane.svg" class="plane-icon" alt="">
+        </svg>
+        <div class="bg">
+            <div class="content">
+                <h2>قم بتحميل التطبيق</h2>
+                <p>التطبيق متوفر الآن علي جميع منصات التحميل جوجل بلاي و آب استور !</p>
+                <div class="buttons">
+                    <a href="#" class="googlePlay">
+                        <img src="img/google white.png" alt="Google Play">
+                    </a>
+                    <a href="#" class="appStore">
+                        <img src="img/appleWhite.png" alt="App Store">
+                    </a>
+                </div>
+            </div>
+            <div class="down-img">
+                <img src="img/down-phones.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="Contactus">
+        <div class="head">
+            <h2>تواصل معنا</h2>
+            <h5>إذا كان لديك استفسار برجاء التواصل معنا !</h5>
+        </div>
+        <div class="main">
+            <form>
+                <input type="text" placeholder="الاسم الثلاثي">
+                <input type="email" placeholder="البريد الالكتروني">
+                <textarea placeholder="الرسالة" rows="7" cols="50"></textarea>
+                <button type="submit">ارسال</button>
+            </form>
+
+            <div class="plane-img">
+                <div class="box"></div>
+
+                <img src="img/plane-form.png" alt="plane" class="planeform">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+
+
+        <div class="banner">
+
+            <div class="star1"></div>
+            <div class="star2"></div>
+            <div class="star3"></div>
+            <div class="star4"></div>
+
+            <div class="banner-content">
+                <img src="img/logo banner.png" alt="Rakayb Logo">
+                <div class="social-icons">
+                    <a href="#">
+                        <img src="img/facebook.svg" alt="face">
+                    </a>
+                    <a href="#">
+                        <img src="img/xtwiter.svg" alt="face">
+                    </a>
+                    <a href="#">
+                        <img src="img/instagram.svg" alt="face">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer2">
+        <div class="footer-banner">
+            <div>صنع بكل حب <span class="heart-img"> <i class="fa-solid fa-heart"></i> </span> في معامل جدارة</div>
+            <h5>جميع الحقوق محفوظة لشركة ركائب 2024</h5>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
