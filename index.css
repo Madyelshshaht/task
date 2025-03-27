@@ -273,7 +273,6 @@ select {
 }
 
 .phonesdiv {
-    /* background-color: black; */
     width: 100%;
     position: relative;
     top: -170px;
@@ -385,7 +384,6 @@ select {
 }
 
 .app .main .contnet {
-    /* background-color: red; */
     width: 50%;
     padding: 0px 20px;
     color: #828282;
@@ -788,7 +786,7 @@ select {
 .reviwers .main .client {
     position: relative;
     width: 40%;
-    height: 420px;
+    height: 435px;
     overflow: hidden;
 }
 
@@ -806,9 +804,9 @@ select {
 
 
 .reviwers .star1 {
-    width: 70px;
-    height: 70px;
-    top: 70%;
+    width: 55px;
+    height: 55px;
+    top: 74%;
     left: 75%;
 }
 
@@ -822,7 +820,6 @@ select {
     transform: translate(-50%, -50%) rotate(12deg) skew(12deg, 5deg);
     background-color: rgba(155, 89, 182, 0.1);
     border-radius: 40px 20px;
-    /* transform: rotate(20deg) skewX(10deg); */
     z-index: 1;
 }
 
@@ -894,7 +891,6 @@ select {
 }
 
 .downlaodApp .bg .down-img {
-    /* background-color: red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -998,13 +994,11 @@ select {
 }
 
 .Contactus .main form {
-    /* background-color: red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 20px;
     width: 45%;
-    /* min-height: 500px; */
 }
 
 .Contactus .main form input {
@@ -1257,6 +1251,11 @@ h5 {
 
 
 
+
+
+
+
+
 /* 1270 */
 @media screen and (max-width: 1270px) {
 
@@ -1277,7 +1276,6 @@ h5 {
     .hero .content {
         padding: 110px 10px 0px 10px;
         width: 50%;
-        /* background-color: red; */
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -1302,7 +1300,6 @@ h5 {
     }
 
     .phonesdiv {
-        /* background-color: black; */
         width: 100%;
         position: relative;
         top: -170px;
@@ -1413,7 +1410,7 @@ h5 {
     .hero .content {
         padding: 50px 20px 0px 20px;
         width: 100%;
-        /* background-color: red; */
+
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -1427,14 +1424,11 @@ h5 {
         position: relative;
         display: flex;
         align-items: center;
-        /* background-color: red; */
         padding: 10px;
     }
 
     .phonesdiv {
-        /* background-color: black; */
         width: 100%;
-        /* position: relative; */
         top: 0px;
         display: flex;
         align-items: center;
@@ -1533,7 +1527,6 @@ h5 {
         top: 0;
         left: 0;
         justify-content: space-between;
-        /* box-shadow: none; */
         z-index: 100;
     }
 
@@ -1673,7 +1666,6 @@ h5 {
         transform: translate(-50%, -50%) rotate(12deg) skew(10deg, 10deg);
         background-color: rgba(155, 89, 182, 0.1);
         border-radius: 40px 20px;
-        /* transform: rotate(20deg) skewX(10deg); */
         z-index: 1;
     }
 
@@ -1725,16 +1717,12 @@ h5 {
     }
 
     .downlaodApp .bg .content {
-        /* background-color: red; */
-
-        /* width: 100%; */
         height: auto;
         padding: 20px;
         text-align: center;
     }
 
     .downlaodApp .bg .down-img {
-        /* background-color: red; */
         margin-top: 40px;
         width: 100%;
         height: auto;
@@ -1798,8 +1786,6 @@ h5 {
 
     .Contactus .main .plane-img {
         position: relative;
-        /* background-color: red; */
-        /* overflow: hidden; */
         width: 100%;
         height: 500px;
     }
@@ -1879,7 +1865,6 @@ h5 {
     .navbar {
         justify-content: space-between;
         width: 100%;
-        /* background-color: orange; */
     }
 
     .nav-links {
@@ -1985,7 +1970,6 @@ h5 {
         transform: translate(-50%, -50%) rotate(12deg) skew(10deg, 10deg);
         background-color: rgba(155, 89, 182, 0.1);
         border-radius: 40px 20px;
-        /* transform: rotate(20deg) skewX(10deg); */
         z-index: 1;
     }
 
@@ -2252,7 +2236,6 @@ h5 {
 
     .reviwers .comment p {
         width: 100%;
-        /* padding: 0px 0px; */
         font-family: Somar;
         font-weight: 400;
         font-size: 20px;
@@ -2269,7 +2252,6 @@ h5 {
         transform: translate(-50%, -50%) rotate(12deg) skew(10deg, 10deg);
         background-color: rgba(155, 89, 182, 0.1);
         border-radius: 40px 20px;
-        /* transform: rotate(20deg) skewX(10deg); */
         z-index: 1;
     }
 
@@ -2382,7 +2364,6 @@ h5 {
 
 
     .Contactus .main .plane-img .planeform {
-        /* background-color: red; */
         padding: 10px;
         width: 90%;
         position: absolute;
