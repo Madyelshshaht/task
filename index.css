@@ -21,6 +21,11 @@ body {
     font-family: 'Somar Sans', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
+
 /* Navbar */
 .navbar {
     position: sticky;
