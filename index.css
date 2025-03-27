@@ -793,7 +793,7 @@ select {
 }
 
 .reviwers .star1,
-.star22{
+.star22 {
     position: absolute;
 }
 
@@ -1108,7 +1108,7 @@ select {
 }
 
 .banner {
-    background: url(img/Rectangle\ 9469.png), url('img/bags.png');
+    background: url(img/Rectangle.png), url('img/bags.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1215,10 +1215,12 @@ select {
     height: 30px;
     border-radius: 50%;
 }
-.social-icons a:hover{
+
+.social-icons a:hover {
     background-color: #FEB200;
 }
-.social-icons a:hover img{
+
+.social-icons a:hover img {
     transform: scale(1.3);
 }
 
@@ -1263,11 +1265,11 @@ h5 {
         height: auto;
     }
 
-    .nav-links{
+    .nav-links {
         gap: 15px;
     }
 
-    .navbar .nav-links a{
+    .navbar .nav-links a {
         font-size: 18px;
     }
 
@@ -1394,11 +1396,11 @@ h5 {
 @media screen and (max-width: 1000px) {
 
 
-    .nav-links{
+    .nav-links {
         gap: 10px;
     }
 
-    .navbar .nav-links a{
+    .navbar .nav-links a {
         font-size: 16px;
     }
 
@@ -2042,13 +2044,15 @@ h5 {
         top: 20%;
     }
 
-    .Contactus .main form input{
+    .Contactus .main form input {
         font-size: 15px;
     }
-    .Contactus .main form textarea{
+
+    .Contactus .main form textarea {
         font-size: 15px;
     }
-    .Contactus .main form button{
+
+    .Contactus .main form button {
         font-size: 16px;
     }
 
@@ -2128,7 +2132,7 @@ h5 {
         top: 95px;
         left: 0;
         text-align: center;
-        padding: 20px 5px ;
+        padding: 20px 5px;
         box-shadow: -2px -2px 2px var(--orange);
         background-color: white;
         transition: opacity 0.3s ease, transform 0.3s ease;
@@ -2204,7 +2208,7 @@ h5 {
 
     .features .head h2 {
         padding-bottom: 20px;
-    
+
         position: relative;
         font-family: 'Somar Sans', sans-serif;
         font-weight: 500;
@@ -2213,7 +2217,7 @@ h5 {
         letter-spacing: 0%;
         color: #512EA6;
     }
-    
+
     .features .head h5 {
         padding-bottom: 40px;
         font-family: 'Somar Sans', sans-serif;
@@ -2422,11 +2426,11 @@ h5 {
     }
 
     .footer2 .footer-banner div,
-h5 {
-    font-family: 'Somar Sans', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-}
+    h5 {
+        font-family: 'Somar Sans', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+    }
 
 
 }
